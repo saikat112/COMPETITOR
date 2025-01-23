@@ -1,0 +1,85 @@
+/* Media Query for Mobile Devices */
+@media (max-width: 480px) {
+h1, h2 {font-size:1.2rem;}
+h3 {font-size: 1rem;}
+h4 {font-size:1.2rem;font-weight: 700;}
+h6 {font-size:1rem;}
+.thanku_bg p{font-size:15px;}
+.thanku_bg img{width:220px;}
+.tick_double ul{columns: 1; -webkit-columns: 1; -moz-columns: 1;}
+.carousel-caption {
+    position: inherit;
+    width: 100%!important;
+    background-image: linear-gradient(var(--blue), var(--dblue));
+    padding: 10px;
+    bottom: 0;
+    right: 0!important;
+    left: 0!important;
+	text-align:center;
+}
+.carousel-indicators [data-bs-target]{display:none;}
+
+.banner-main{margin-top: 70px;}
+.card-body{padding: 10px;}
+.cardsec .card h5{margin-bottom: 14px;font-size: 18px;}
+.modal-body{padding: 50px 10px 10px 10px;}
+.btn-close{top: 5px;right: 5px;}
+#backto-top{display: none;}
+.floating_icon_bar{bottom: 40px;right: 10px;}
+.sectiongap{padding: 25px 0;}
+.checks{margin-bottom: 25px;}
+.logo-main img{width: 165px;}
+.scroll_navbar .logo-main img{width: 150px;transition: 400ms all ease;}
+.checks .btn-primary{font-size: 14px;}
+table img{width: 110px;}
+.section_title h2{font-size: 26px;}
+.section_title{margin-bottom: 20px;}
+footer{padding: 10px 0 45px 0;}
+/* .scroll-to-fixed-fixed{position: static!important;} */
+
+.floating_icon_bars {
+    position: fixed;
+    top: unset;
+    left:auto;right:auto;
+    -webkit-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    transform: unset;
+    z-index: 99;
+    bottom: 0;
+    width: 100%;
+    background:#fff;
+    display: flex;
+}
+.floating_icon_bars a {
+    display: inline-block;
+    text-align: center;
+    padding: 7px 0;
+    transition: all 0.3s ease;
+    color: white;
+    font-size: 15px;
+    width:100%;
+	height:auto;
+	line-height:auto;
+	border-radius:0;
+	margin:0 auto;
+    transform: none;
+}
+.formdiv .modal-body{padding: 25px 0 0 0;}
+.formdiv h2{font-size: 20px;}
+}
+
+
+/* Media Query for Large screens */
+@media (min-width: 1200px) {
+.container, .container-sm, .container-md, .container-lg, .container-xl{
+max-width: 1220px;}
+
+	
+}
+
+
+
+
+
+
+
